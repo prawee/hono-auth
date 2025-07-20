@@ -12,6 +12,11 @@ To install dependencies:
 bun install
 ```
 
+To using db:
+```sh
+bun run db:up
+```
+
 To run:
 ```sh
 bun run dev

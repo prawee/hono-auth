@@ -7,6 +7,7 @@ Practise about IAAA with Hono and friend stack
 - REST Client (VSCode Extension)
 - PostgreSQL
 - Drizzle ORM
+- Better Auth
 
 ## Initial
 To install dependencies:

@@ -1,4 +1,4 @@
-import { drizle } from 'drizzle-orm/node-postgres'
+import { drizzle } from 'drizzle-orm/node-postgres'
 import { Pool } from 'pg'
 import * as schema from '@/database/schema'
 
@@ -8,4 +8,4 @@ export const pool = new Pool({
     idleTimeoutMillis: 30000,
 })
 
-export const db = drizle(pool, { schema, casing: 'snake_case' })
+export const db = drizzle(pool, { schema, casing: 'snake_case' })

@@ -2,3 +2,6 @@
 
 ### default
 http://localhost:3000
+
+### Reference
+http://localhost:3000/api/auth/reference
